@@ -21,7 +21,7 @@ Higher level programing. Python, C and others. Concepts, programs, functions and
 
 Copy the code, compile (if is necessary), and execute it.
 
-—-
+—--
 
 ### Setup
 
@@ -36,7 +36,8 @@ See the codes of different functions and programs.
 
 ## Documentation
 
-See within the directories
+See within the directories.
+
 ---
 
 ## Contributing
@@ -69,7 +70,6 @@ Feel free to contact me!
 
 - GitHub at <a href="https://github.com/Charliemur2">`Charliemur2`</a>
 - Twitter at <a href="https://twitter.com/charliesoka">`@charliesoka`</a>
-- Insert more social links here.
 
 ---
 
