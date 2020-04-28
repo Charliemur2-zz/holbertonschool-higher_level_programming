@@ -1,87 +1,78 @@
-# Project Title
+<img src="https://yawpitchroll.com/posts/the-35-words-you-need-to-python/png/opengraph_1x1.c696aeff96be74651553253b817e689868b1773239467c645c2b0a13bb802374.png">
 
-One Paragraph of project description goes here
 
-## Getting Started
+#  holbertonschool-higher_level_programming
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Higher level programing. Python, C and others. Concepts, programs, functions and exercices
 
-### Prerequisites
 
-What things you need to install the software and how to install them
+## Table of Contents (Optional)
 
-```
-Give examples
-```
+- [Installation](#installation)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Team](#team)
+- [Support](#support)
+- [License](#license)
 
-### Installing
+---
 
-A step by step series of examples that tell you how to get a development env running
+## Installation
 
-Say what the step will be
+Copy the code, compile (if is necessary), and execute it.
 
-```
-Give the example
-```
+—-
 
-And repeat
+### Setup
 
-```
-until finished
-```
+Don´t need for this repository.
 
-End with an example of getting some data out of the system or using it for a little demo
+---
 
-## Running the tests
+## Features
+## Usage
 
-Explain how to run the automated tests for this system
+See the codes of different functions and programs.
 
-### Break down into end to end tests
+## Documentation
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+See within the directories
+---
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+### Step 1
 
-## Versioning
+- **Option 1**
+    - 🍴 Fork this repo!
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+- **Option 2**
+    - 👯 Clone this repo to your local machine using
 
-## Authors
+### Step 2
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+- **HACK AWAY!** 🔨🔨🔨
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+### Step 3
+
+- 🔃 Create a new pull request using.
+---
+
+## Team
+
+https://github.com/Charliemur2
+---
+
+## Support
+
+Feel free to contact me!
+
+- GitHub at <a href="https://github.com/Charliemur2">`Charliemur2`</a>
+- Twitter at <a href="https://twitter.com/charliesoka">`@charliesoka`</a>
+- Insert more social links here.
+
+---
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Free Source Code
