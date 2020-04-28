@@ -2,4 +2,5 @@
 for i in range(0, 100):
     if (i == 99):
         print("{:2d}".format(i))
-    print("{:02}, ".format(i,), end="")
+    elif (i != 99):
+        print("{:02}, ".format(i,), end="")
