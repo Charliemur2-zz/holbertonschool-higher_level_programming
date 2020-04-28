@@ -21,11 +21,12 @@ First steps in Pyhton
 
 Copy the code, compile (if is necessary), and execute it.
 
-—-
+—--
 
 ### Setup
 
 Dont´t need for this repository.
+
 ---
 
 ## Features
