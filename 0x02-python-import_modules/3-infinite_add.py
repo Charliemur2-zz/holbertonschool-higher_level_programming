@@ -6,5 +6,5 @@ if __name__ == "__main__":
     suma = 0
     while (i < len(argv)):
         suma = suma + (int(argv[i]))
-        i +=1
+        i += 1
     print("{}".format(suma))
