@@ -11,11 +11,11 @@ if __name__ == "__main__":
     if (argv[2] == "+"):
         print("{} + {} = {}".format(numer, oper, add(numer, oper)))
     elif (argv[2] == "-"):
-        print("{} + {} = {}".format(numer, oper, sub(numer, oper)))
+        print("{} - {} = {}".format(numer, oper, sub(numer, oper)))
     elif (argv[2] == "*"):
-        print("{} + {} = {}".format(numer, oper, mul(numer, oper)))
+        print("{} * {} = {}".format(numer, oper, mul(numer, oper)))
     elif (argv[2] == "/"):
-        print("{} + {} = {}".format(numer, oper, div(numer, oper)))
+        print("{} / {} = {}".format(numer, oper, div(numer, oper)))
     else:
         print("Unknown operator. Available operators: +, -, * and /")
         exit (1)
