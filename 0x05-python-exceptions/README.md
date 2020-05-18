@@ -1,4 +1,4 @@
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Frealpython.com%2Fpython-exceptions%2F&psig=AOvVaw3cN0w_A9aWmBLB9YTn2ji5&ust=1589903566609000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDMor7ivekCFQAAAAAdAAAAABAD">
+<img src="https://files.realpython.com/media/try_except.c94eabed2c59.png">
 
 # 0x05. Python - Exceptions.
 
