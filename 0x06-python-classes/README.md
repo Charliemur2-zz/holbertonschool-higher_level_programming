@@ -7,6 +7,22 @@ In all the programs we wrote till now, we have designed our program around funct
 
 Classes and objects are the two main aspects of object oriented programming. A class creates a new type where objects are instances of the class. An analogy is that you can have variables of type int which translates to saying that variables that store integers are variables which are instances (objects) of the int class.
 
+### TASKS
+
+0. My first square:
+Write an empty class Square that defines a square.
+1. Square with size:
+Write a class Square that defines a square by: (based on 0-square.py).
+2. Size validation:
+Write a class Square that defines a square by: (based on 1-square.py).
+3. Area of a square:
+Write a class Square that defines a square by: (based on 2-square.py).
+4. Access and update private attribute:
+Write a class Square that defines a square by: (based on 3-square.py).
+5. Printing a square:
+Write a class Square that defines a square by: (based on 4-square.py).
+6. Coordinates of a square:
+Write a class Square that defines a square by: (based on 5-square.py).
 ---
 
 ## Table of Contents
