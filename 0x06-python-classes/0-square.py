@@ -3,4 +3,8 @@
 
 
 class Square:
-    pass    # An empty block
+    """create a class
+
+    atributes: empty.
+    """
+    pass
