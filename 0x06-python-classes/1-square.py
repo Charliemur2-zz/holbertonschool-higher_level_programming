@@ -3,5 +3,14 @@
 
 
 class Square:
-    def __init__(self, size=None): # create instance atribute 'size'
-        self._size = size          # private instance to size
+    """create a square.
+
+    size (no type/value verification)
+
+    atributes:
+    size: private instance.
+    """
+
+
+    def __init__(self, size=None):
+        self._size = size
