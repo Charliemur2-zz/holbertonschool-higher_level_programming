@@ -32,6 +32,6 @@ class Square:
         if self.__size == 0:
             print()
         for h in range(self.__size):
-            for w in range(self.__size):
+            for w in range(self.__size - 1):
                 print('#', end="")
             print('#')
