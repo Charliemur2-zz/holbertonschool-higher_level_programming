@@ -62,7 +62,7 @@ TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
 >>> add_integer(9999e9999)
 Traceback (most recent call last):
 	  ...
-OverflowError: cannot convert float infinity to integer
+TypeError: a must be an integer
 
 'a is a float cast string'
 >>> add_integer(float("hello"), 8)
@@ -74,4 +74,4 @@ ValueError: could not convert string to float: 'hello'
 >>> add_integer(float('nan'), 3)
 Traceback (most recent call last):
 	  ...
-ValueError: cannot convert float NaN to integer
+TypeError: a must be an integer
