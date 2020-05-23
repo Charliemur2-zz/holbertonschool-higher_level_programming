@@ -38,3 +38,17 @@ class TestMaxInteger(unittest.TestCase):
         """
         given_list = []
         self.assertEqual(max_integer(given_list), None)
+
+    def test_max_integer_at_the_beginning(self):
+        """
+        max at the beginning
+        """
+        given_list = [9, 2, 4, 8, 3]
+        self.assertEqual(max_integer(given_list), max(given_list))
+
+    def test_max_integer_one_element(self):
+        """
+        list of one element
+        """
+        given_list = [9]
+        self.assertEqual(max_integer(given_list), max(given_list))
