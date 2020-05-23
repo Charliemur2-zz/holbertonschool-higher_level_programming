@@ -1,0 +1,4 @@
+text_indentation = __import__('5-text_indentation').text_indentation
+
+'two chars together'
+>>> text_identation("Hello.?beautiful:.world!")
