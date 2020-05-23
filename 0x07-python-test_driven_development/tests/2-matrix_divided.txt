@@ -4,13 +4,13 @@
 >>> matrix_divided(25, (12, 25, 10))
 Traceback (most recent call last):
 	  ...
-TypeError: matrix must be a matrix (list of lists)of integers/floats
+TypeError: matrix must be a matrix (list of lists) of integers/floats
 
 'matrix is a string'
 >>> matrix_divided("hello", 2)
 Traceback (most recent call last):
 	  ...
-TypeError: matrix must be a matrix (list of lists)of integers/floats
+TypeError: matrix must be a matrix (list of lists) of integers/floats
 
 'list1 len = list2 len'
 >>> matrix_divided([[1, 2, 3], [12, 25]], 2)
