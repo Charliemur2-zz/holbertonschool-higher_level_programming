@@ -1,0 +1,35 @@
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+'first name is empty'
+>>> say_my_name("")
+My name is  
+
+'first name is not string'
+>>> say_my_name(12, "White")
+Traceback (most recent call last):
+	  ...
+TypeError: first_name must be a string
+
+'last name is not string'
+>>> say_my_name("White", 12.5)
+Traceback (most recent call last):
+	  ...
+TypeError: last_name must be a string
+
+
+'first is a list'
+>>> say_my_name(["Bob", "Carl", "Jason"], "White")
+Traceback (most recent call last):
+	  ...
+TypeError: first_name must be a string
+
+
+'first is a touple'
+>>> say_my_name((4, 2, 11), "White")
+Traceback (most recent call last):
+	  ...
+TypeError: first_name must be a string
+
+'everithing ok'
+>>> say_my_name("Walter", "White")
+My name is Walter White

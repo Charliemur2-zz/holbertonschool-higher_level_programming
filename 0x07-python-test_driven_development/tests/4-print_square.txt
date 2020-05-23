@@ -1,0 +1,26 @@
+>>> print_square = __import__('4-print_square').print_square
+
+'size is a str'
+>>> print_square("tow")
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+
+'size is a list'
+>>> print_square([1, 2, 3])
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+
+'size is a touple'
+>>> print_square((1, 2, 3))
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+
+'size is float and less than 0'
+>>> print_square(-1.2)
+Traceback (most recent call last):
+	  ...
+TypeError: size must be an integer
+
