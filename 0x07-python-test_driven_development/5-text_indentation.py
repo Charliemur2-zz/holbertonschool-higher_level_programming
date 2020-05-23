@@ -26,6 +26,6 @@ def text_indentation(text):
         if text[i] in c:
             print()
             print()
-            if text[i + 1] == " ":
+            while text[i + 1] == " ":
                 i += 1
         i += 1
