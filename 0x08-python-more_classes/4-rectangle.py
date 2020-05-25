@@ -17,7 +17,6 @@ class Rectangle:
         self.__width = width
         self.__height = height
 
-
     def __str__(self):
         string = ""
         if self.__width == 0 or self.__height == 0:
@@ -30,7 +29,8 @@ class Rectangle:
         return string
 
     def __repr__(self):
-        return "Rectangle(" + str(self.__width) + ", " + str(self.__height) + ")"
+        return ("Rectangle(" + str(self.__width) + ", " +
+                str(self.__height) + ")")
 
     @property
     def width(self):
