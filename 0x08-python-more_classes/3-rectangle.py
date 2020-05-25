@@ -17,7 +17,6 @@ class Rectangle:
         self.__width = width
         self.__height = height
 
-
     def __str__(self):
         string = ""
         if self.__width == 0 or self.__height == 0:
