@@ -3,6 +3,7 @@
 Write an empty class
 """
 
+
 class BaseGeometry:
     """
     emprty class
