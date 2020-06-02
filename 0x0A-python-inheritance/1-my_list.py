@@ -1,4 +1,4 @@
-#!/usr/bin/pythin3
+#!/usr/bin/python3
 """
 Write a class MyList that inherits from list
 """
