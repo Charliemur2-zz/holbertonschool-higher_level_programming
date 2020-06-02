@@ -16,7 +16,7 @@ True
 True
 
 'functions docstring'
->>> doc = __import__("1-my_list")MyList.print_sorted.__doc__
+>>> doc = __import__("1-my_list").MyList.print_sorted.__doc__
 >>> len(doc) > 1
 True
 
