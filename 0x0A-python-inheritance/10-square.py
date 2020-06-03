@@ -5,6 +5,7 @@ New subclass square
 
 Rectangle = __import__('9-rectangle').Rectangle
 
+
 class Square(Rectangle):
     """
     new classs square, inhetrance from Rectangle
