@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import json
 """
-unction that returns the JSON representation of an object (string)
+function that returns the JSON representation of an object (string)
 """
 
 
