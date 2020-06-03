@@ -12,7 +12,7 @@ def read_lines(filename="", nb_lines=0):
         lines = the_file.readlines()
     if nb_lines <= 0 or nb_lines >= len(lines):
         for i in lines:
-            print(i, end=" ")
+            print(i, end="")
     else:
         for i in range(nb_lines):
-            print(lines[i], end=" ")
+            print(lines[i], end="")
