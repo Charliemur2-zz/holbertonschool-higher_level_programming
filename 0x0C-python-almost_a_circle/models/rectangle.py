@@ -120,7 +120,11 @@ class Rectangle(Base):
         """
         method that prints the rectangle with the character #.
         """
+        for row in range(self.__y):
+            print("\n", end="")
         for h in range(self.__height):
+            for column in range(self.__x):
+                print(" ", end="")
             for w in range(self.__width):
                 print('#', end="")
             print()
