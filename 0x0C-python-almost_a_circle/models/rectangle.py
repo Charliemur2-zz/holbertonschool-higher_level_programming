@@ -135,10 +135,18 @@ class Rectangle(Base):
                                                         self.__height)
         return (str_msg)
 
-    def update(self, *args):
-        attrib_name = ["id", "width", "height", "x", "y"]
-        attrib_value = []
-        for value in args:
-            attrib_value.append(value)
-            for i in range(len(attrib_value)):
-                setattr(self, attrib_name[i], attrib_value[i])
+    def update(self, *args, **kwargs):
+        """
+        assigns a key/value argument to attributes.
+        """
+        if not args or args is None:
+            for attrib_name, attrib_value in kwargs.items():
+                setattr(self, attrib_name, attrib_value)
+
+        else:
+            attrib_name = ["id", "width", "height", "x", "y"]
+            attrib_value = []
+            for value in args:
+                attrib_value.append(value)
+                for i in range(len(attrib_value)):
+                    setattr(self, attrib_name[i], attrib_value[i])
