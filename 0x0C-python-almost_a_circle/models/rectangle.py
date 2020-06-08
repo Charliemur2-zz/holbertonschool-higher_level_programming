@@ -130,9 +130,13 @@ class Rectangle(Base):
             print()
 
     def __str__(self):
+        """
+        string representation
+        """
         str_msg = "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.__x,
-                                                        self.__y, self.__width,
-                                                        self.__height)
+                                                          self.__y,
+                                                          self.__width,
+                                                          self.__height)
         return (str_msg)
 
     def update(self, *args, **kwargs):
@@ -150,3 +154,11 @@ class Rectangle(Base):
                 attrib_value.append(value)
                 for i in range(len(attrib_value)):
                     setattr(self, attrib_name[i], attrib_value[i])
+
+    def to_dictionary(self):
+        """
+        dictionary representation
+        """
+        dict_repr = {'x': self.x, 'y': self.y, 'id': self.id,
+                     'height': self.height, 'width': self.width}
+        return dict_repr
