@@ -78,7 +78,7 @@ class Base:
         returns a list of instances
         """
         file_name = cls.__name__ + ".json"
-        json.obj = []
+        json_obj = []
         try:
             with open(file_name, "r") as f:
                 json_obj = cls.from_json_string(f.read())
