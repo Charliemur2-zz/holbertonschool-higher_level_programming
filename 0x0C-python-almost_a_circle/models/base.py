@@ -44,9 +44,7 @@ class Base:
         """
         file_name = cls.__name__ + ".json"
         lines = []
-        if list_objs is None:
-            return []
-        else:
+        if list_objs is not None:
             for i in list_objs:
                 lines.append(cls.to_dictionary(i))
         with open(file_name, mode="w") as f:
