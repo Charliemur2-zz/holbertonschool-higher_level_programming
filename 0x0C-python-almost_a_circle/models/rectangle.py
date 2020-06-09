@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Class Rectangle
 Created: June 06/2020
