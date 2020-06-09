@@ -33,7 +33,7 @@ class Base:
         list_dictionary.
         """
         if list_dictionaries is None or not list_dictionaries:
-            return "[]"
+            return []
         else:
             return json.dumps(list_dictionaries)
 
@@ -43,7 +43,7 @@ class Base:
         writes the JSON string representation of list_objs to a file
         """
         if list_objs is None:
-            return "[]"
+            return []
         else:
             file_name = cls.__name__ + ".json"
             lines = []
@@ -58,7 +58,7 @@ class Base:
         returns the list of the JSON string representation json_string
         """
         if json_string is None:
-            return "[]"
+            return []
         else:
             return json.loads(json_string)
 
