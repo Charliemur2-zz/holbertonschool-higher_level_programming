@@ -49,8 +49,8 @@ class Base:
         else:
             for i in list_objs:
                 lines.append(cls.to_dictionary(i))
-            with open(file_name, mode="w") as f:
-                f.write(cls.to_json_string(lines))
+        with open(file_name, mode="w") as f:
+            f.write(cls.to_json_string(lines))
 
     @staticmethod
     def from_json_string(json_string):
