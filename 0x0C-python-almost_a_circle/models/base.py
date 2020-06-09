@@ -68,7 +68,7 @@ class Base:
         if cls.__name__ is "Rectangle":
             dummy = cls(3, 4)
         elif cls.__name__ is "Square":
-            dummy = cls(3, 4)
+            dummy = cls(3)
         dummy.update(**dictionary)
         return dummy
 
@@ -78,6 +78,7 @@ class Base:
         returns a list of instances
         """
         file_name = cls.__name__ + ".json"
+        json.obj = []
         try:
             with open(file_name, "r") as f:
                 json_obj = cls.from_json_string(f.read())
