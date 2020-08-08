@@ -19,11 +19,11 @@ if __name__ == "__main__":
     cur = db.cursor()
     i = 1
 
-    count = cur.execute(" SELECT cities.name FROM cities WHERE state_id = ( \
-                            SELECT id \
-                            FROM states \
-                            WHERE name LIKE BINARY %s) \
-                    ORDER BY cities.id ASC", (state, ))
+    count = cur.execute("SELECT cities.name FROM cities WHERE state_id = ( \
+                        SELECT id \
+                        FROM states \
+                        WHERE name LIKE BINARY %s) \
+                        ORDER BY cities.id ASC", (state, ))
     names = cur.fetchall()
     for item in names:
         print(item[0], end="")
