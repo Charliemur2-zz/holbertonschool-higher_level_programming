@@ -30,7 +30,6 @@ if __name__ == "__main__":
         if i < count:
             print(end=", ")
             i += 1
-        else:
-            print()
+    print()
     cur.close()
     db.close()
