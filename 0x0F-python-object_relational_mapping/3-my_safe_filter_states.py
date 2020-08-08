@@ -16,9 +16,10 @@ if __name__ == "__main__":
         passwd=arg[2],
         db=arg[3],
         port=3306)
+    state = arg[4]
     cur = db.cursor()
     cur.execute("SELECT * FROM states WHERE states.name\
-                LIKE BINARY '%{}%' ORDER BY states.id".format(arg[4]))
+                LIKE BINARY %s ORDER BY states.id", (state, ))
     names = cur.fetchall()
     for item in names:
         print(item)
