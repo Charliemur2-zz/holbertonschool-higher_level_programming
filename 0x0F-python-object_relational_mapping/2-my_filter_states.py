@@ -18,7 +18,7 @@ if __name__ == "__main__":
         port=3306)
     cur = db.cursor()
     cur.execute("SELECT * FROM states WHERE states.name\
-                = '{}' ORDER BY states.id".format(arg[4]))
+                LIKE BINARY '{}' ORDER BY states.id".format(arg[4]))
     names = cur.fetchall()
     for item in names:
         print(item)
