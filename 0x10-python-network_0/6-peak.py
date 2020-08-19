@@ -2,6 +2,8 @@
 """
 function that returns the peak of a list
 """
+
+
 def find_peak(list_of_integers):
     if list_of_integers > 0:
         list_of_integers.sort()
