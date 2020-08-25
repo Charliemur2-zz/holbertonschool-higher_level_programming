@@ -19,6 +19,6 @@ if __name__ == "__main__":
         if len(rqjson) == 0:
             print('No result')
         else:
-            print('[{}] {}'.format(rqjson['name'], rqjson['id']))
+            print('[{}] {}'.format(rqjson['id'], rqjson['name']))
     except:
         print('Not a valid JSON')
