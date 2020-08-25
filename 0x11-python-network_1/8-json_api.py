@@ -13,12 +13,12 @@ if __name__ == "__main__":
         q = {'q': sys.argv[1]}
     else:
         q = {'q': ''}
-    req = post(url, data=q)
+    req = requests.post(url, q)
     try:
         rqjson = req.json()
         if len(rqjson) == 0:
             print('No result')
         else:
-            print('{} {}'.format(rqjson['name'], rqjson['id']))
+            print('[{}] {}'.format(rqjson['name'], rqjson['id']))
     except:
         print('Not a valid JSON')
