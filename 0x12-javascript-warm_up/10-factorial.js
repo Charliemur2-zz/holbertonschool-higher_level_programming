@@ -6,7 +6,7 @@ function factorial (n) {
     }
     return (n * factorial(n - 1));
 }
-  
+
 if (!parseInt(process.argv[2])) {
   console.log(1);
 } else {
