@@ -7,7 +7,6 @@ class Rectangle {
     }
   }
   print() {
-    // method to print a X square
     for (let i = 1; i <= this.height; i++) {
       console.log('X'.repeat(this.width))
     }
