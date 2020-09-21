@@ -4,4 +4,4 @@
 class Rectangle {
   // create a empty class Square
 }
-module.exports = Rectangle
+module.exports = Rectangle;
