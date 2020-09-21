@@ -7,21 +7,24 @@ class Rectangle {
     }
   }
 
+  // Method to print Square object
   print () {
     for (let i = 1; i <= this.height; i++) {
       console.log('X'.repeat(this.width));
     }
   }
 
+  // Method to exchange width and height values
   rotate () {
     const temp = this.width;
     this.width = this.height;
     this.height = temp;
   }
 
+  // Method to incrase width and height values by 2
   double () {
-    let width = this.width * 2;
-    let height = this.height * 2;
+    this.width = this.width * 2;
+    this.height = this.height * 2;
   }
 }
 module.exports = Rectangle;
