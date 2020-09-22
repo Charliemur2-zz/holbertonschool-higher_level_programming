@@ -1,6 +1,5 @@
 #!/usr/bin/node
 const list = require('./100-data').list;
-let procesList = []
-procesList = list.map(x => x * list.indexOf(x));
+const procesList = list.map((x, index) => x * index);
 console.log(list);
 console.log(procesList);
