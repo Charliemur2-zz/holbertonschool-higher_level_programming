@@ -1,8 +1,8 @@
 #!/usr/bin/node
+const request = require('request');
 const argv = process.argv;
 const url = argv[2];
 const charUrl = 'https://swapi-api.hbtn.io/api/people/18/';
-const request = require('request');
 let numMovies = 0;
 request(url, function (error, response, body) {
   if (error) {
