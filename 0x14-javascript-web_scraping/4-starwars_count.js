@@ -2,7 +2,7 @@
 const request = require('request');
 const argv = process.argv;
 const url = argv[2];
-const charUrl = 'https://swapi-api.hbtn.io/api/people/18/';
+// const charUrl = 'https://swapi-api.hbtn.io/api/people/18/';
 let numMovies = 0;
 request(url, function (error, response, body) {
   if (error) {
@@ -11,7 +11,7 @@ request(url, function (error, response, body) {
     const resultList = JSON.parse(body).results;
     resultList.forEach(function (charactersList) {
       charactersList.characters.forEach(function (character) {
-        if (character === charUrl) {
+        if (character.includes('18')) {
           numMovies++;
         }
       });
