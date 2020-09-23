@@ -8,7 +8,7 @@ request(url, function (error, response, body) {
   if (error) {
     console.error(error);
   } else {
-    let resultList = JSON.parse(body).results;
+    const resultList = JSON.parse(body).results;
     resultList.forEach(function (charactersList) {
       charactersList.characters.forEach(function (character) {
         if (character === charUrl) {
